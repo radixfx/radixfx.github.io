@@ -1,0 +1,97 @@
+/* Header rules */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.logo-img {
+	width: 50%;
+	height: auto;
+	margin-top: 7px;
+}
+
+.navbar {
+	border-bottom-color: rgb(204, 204, 204);
+	background-color: white;
+	min-height:70px;
+	box-shadow: 0 0 20px black;
+}
+
+.navbar-nav {
+	float: right;
+	margin: 10px;
+	font-family:  'Open Sans', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #404040;
+}
+
+.normal-text {
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Page specific */
+
+.primary-header {
+    height: 400px;
+    background: url(../img/background1.jpg) center center no-repeat scroll;
+	position: relative;
+}
+
+.secondary-header {
+    height: 200px;
+    background: url(../img/background0.jpg) center center no-repeat scroll;
+	position: relative;
+}
+
+.primary-tagline {
+	background: hsla(0,0%,100%,.7);
+	color: #404040;
+	text-align: center;
+    position: relative;
+    top: 33%;
+    max-width: 600px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+}
+
+.secondary-tagline {
+	background: hsla(0,0%,100%,.7);
+	color: #404040;
+	text-align: left;
+	position: relative;
+    top: 40%;
+    margin-left: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 45px;
+}
+
+.product-tagline {
+	color: #ff0000;
+    font-size: 35px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+	color: white;
+	background-color: rgb(212, 63, 58);
+	height: 100px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #404040;
+}
